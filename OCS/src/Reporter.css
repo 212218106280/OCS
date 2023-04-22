@@ -1,0 +1,89 @@
+.reporter-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  
+   
+  
+  
+}
+/* .reporter-page{
+  border: 1px solid black;
+  padding: 10px;
+} */
+
+.reporter-page h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  
+}
+
+.form-field label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.form-field input,
+.form-field textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-field input[type="date"] {
+  appearance: none;
+  border: none;
+}
+
+.form-field textarea {
+  height: 100px;
+}
+
+button[type="submit"],
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit1"]:hover,
+button:hover {
+  background-color: #0062cc;
+}
+
+.add-doctor-btn {
+  background-color: #28a745;
+  margin-right: 10px;
+}
+
+.view-all-btn {
+  background-color:darkmagenta;
+  color: red;
+}
+
+.add-doctor-btn:hover,
+.view-all-btn:hover {
+  background-color: olive;
+}
+.img7{
+  background-image: url("./rr4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
